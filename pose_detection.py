@@ -203,9 +203,8 @@ if __name__ == "__main__":
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
     UDP_IP = "172.31.1.147"  # IP of the robot
-    UDP_PORT = 30001 # Port of the robot???
+    UDP_PORT = 30001 # Port of the robot
     sock = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)  # Create UDP socket
-    # sock.bind((UDP_IP, UDP_PORT))
     print("*** UDP Established ***")
 
 
