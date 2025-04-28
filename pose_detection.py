@@ -11,9 +11,9 @@ safe_distance = False
 
 # TODO
 # - Realsense Camera setup instead of laptop webcam      DONE
-# - Conversion of pixel to depth with RealSense          DONE - but needs testing/confirmation
-# - Create UDP connection to robot (then have robot stop motion)        WIP
-# - Padding of limbs annotation with mask processing        BONUS if time
+# - Conversion of pixel to depth with RealSense          DONE
+# - Create UDP connection to robot (then have robot stop motion)        UDP DONE - Robot motion stop is NOT done.
+# - Padding of limbs annotation with mask processing        Future Development
 
 # Setup RealSense Camera
 def realsenseInit():
