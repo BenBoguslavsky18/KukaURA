@@ -1,0 +1,1 @@
+My project for creating a collision avoidance system for the KUKA Robot Arm as part of my research assistance program at the University of Waterloo, part of the UW-SERA team for ACL and other surgery.
